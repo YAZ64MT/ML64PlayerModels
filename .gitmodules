@@ -1,3 +1,6 @@
 [submodule "Z64-CustomPlayerModels"]
 	path = Z64-CustomPlayerModels
 	url = https://github.com/hylian-modding/Z64-CustomPlayerModels
+[submodule "ml64modelpackagetopmm"]
+	path = ml64modelpackagetopmm
+	url = https://github.com/YAZ64MT/ml64modelpackagetopmm
