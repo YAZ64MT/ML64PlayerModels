@@ -1,6 +1,4 @@
 import sys
-sys.path.append("./ml64modelpackagetopmm") # kludge
-
 from os import SEEK_END
 from shutil import rmtree
 from ml64modelpackagetopmm.processzobjsbulk import process_zobjs_bulk
