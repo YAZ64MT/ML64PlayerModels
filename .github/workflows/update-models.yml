@@ -1,0 +1,23 @@
+name: Update Models
+
+on:
+  workflow_dispatch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout repo content
+        uses: actions/checkout@v6.0.2 # checkout the repository content to github runner.
+      - name: setup python
+        uses: actions/setup-python@v6.2.0
+        with:
+          python-version: 3.14 #install the python needed
+          pip-install: -r requirements.txt
+      - name: run model generation script
+        run: python refreshrepo.py
+      - name: create PR for changed models
+        uses: peter-evans/create-pull-request@v8
+        with:
+          base: main
