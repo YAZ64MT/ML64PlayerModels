@@ -13,4 +13,4 @@ Given that the extraction process was automated by a script, not every model has
 
 
 ## Special Thanks
-[This wide selection of models is only available due to the many talented model creators who have submitted to ModLoader64 over the years, so a massive thanks goes to them.](modloader64.com/models.html)
+[This wide selection of models is only available due to the many talented model creators who have submitted to ModLoader64 over the years, so a massive thanks goes to them.](https://modloader64.com/models.html)
